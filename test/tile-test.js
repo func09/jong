@@ -18,7 +18,7 @@ describe('Tile', function() {
       it("5番目の牌は「五筒赤」のラベルであるべき", () => {
         const tile = new Tile(1, Tile.Types[1], 4, 0)
         expect(tile.label).to.eq("赤五筒")
-        expect(tile.code).to.eq("5-circles-dora")
+        expect(tile.code).to.eq("5-dots-dora")
       })
     })
     context("索子", () => {
